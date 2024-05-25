@@ -1,0 +1,17 @@
+João = input("João, jogue (pedra, papel, tesoura): ")
+Maria = input("Maria, jogue (pedra, papel, tesoura): ")
+for x in range(1):
+  if João == "pedra" and Maria == "tesoura":
+    print(f"Parabéns João, você ganhou!")
+  elif João == "papel" and Maria == "pedra":
+    print(f"Parabens João, você ganhou!")
+  elif João == "tesoura" and Maria == "papel":
+    print(f"Parabéns João, você ganhou!")
+  elif João == "pedra" and Maria == "papel":
+    print(f"Parabéns Maria, você ganhou!")
+  elif João == "papel" and Maria == "tesoura":
+    print(f"parabéns Maria, você ganhou!")
+  elif João == "tesoura" and Maria == "pedra":
+    print(f"Parabéns Maria, você ganhou!")
+  elif João == Maria:
+    print("Empate!")
